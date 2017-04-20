@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.sinh(${1:x})]]></content>
+    <tabTrigger>math.sinh</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.sinh (x)</description>
+</snippet>

@@ -1,0 +1,4 @@
+{
+"cmd": ["C:\\Program Files\\TIC-80\\tic_0.21.0\\tic.exe","-code","$file"],
+"shell":true
+}

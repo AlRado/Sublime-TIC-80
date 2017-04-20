@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[class ${1:name} ${2:extends} ${3:parent}
+  ${4:new: (${5:args})=>}
+    ${6:--do something}]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.moon</scope>
+    <description>class name extends...</description>
+</snippet>

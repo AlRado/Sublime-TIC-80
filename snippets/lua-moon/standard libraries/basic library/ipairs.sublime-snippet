@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ipairs(${1:t})]]></content>
+    <tabTrigger>ipairs</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>ipairs (t)</description>
+</snippet>

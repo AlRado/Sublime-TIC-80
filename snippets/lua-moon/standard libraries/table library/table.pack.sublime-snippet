@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[table.pack(${1:...})]]></content>
+    <tabTrigger>table.pack</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>table.pack (...)</description>
+</snippet>

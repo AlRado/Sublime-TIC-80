@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+while ${1:condition} do
+  ${2:-- loop code}
+end
+]]></content>
+	<tabTrigger>while</tabTrigger>
+	<scope>source.lua</scope>
+	<description>while</description>
+</snippet>

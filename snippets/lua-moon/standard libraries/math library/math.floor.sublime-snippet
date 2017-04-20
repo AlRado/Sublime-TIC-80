@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.floor(${1:x})]]></content>
+    <tabTrigger>math.floor</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.floor (x)</description>
+</snippet>

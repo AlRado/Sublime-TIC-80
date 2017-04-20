@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.frexp(${1:x})]]></content>
+    <tabTrigger>math.frexp</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.frexp (x)</description>
+</snippet>

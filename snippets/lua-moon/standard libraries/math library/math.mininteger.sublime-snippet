@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.mininteger]]></content>
+    <tabTrigger>math.mininteger</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.mininteger</description>
+</snippet>

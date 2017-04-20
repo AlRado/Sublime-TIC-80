@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[coroutine.yield(${1:...})]]></content>
+    <tabTrigger>coroutine.yield</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>coroutine.yield (...)</description>
+</snippet>

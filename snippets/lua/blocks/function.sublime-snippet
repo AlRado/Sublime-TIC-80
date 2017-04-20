@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+function ${1:foo}(${2:var})
+  ${3:-- do something}
+end
+]]></content>
+	<tabTrigger>func</tabTrigger>
+	<scope>source.lua</scope>
+	<description>function</description>
+</snippet>

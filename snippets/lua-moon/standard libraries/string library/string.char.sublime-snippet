@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[string.char(${1:...})]]></content>
+    <tabTrigger>string.char</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>string.char (...)</description>
+</snippet>

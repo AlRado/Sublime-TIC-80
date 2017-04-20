@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.type(${1:x})]]></content>
+    <tabTrigger>math.type</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.type (x)</description>
+</snippet>

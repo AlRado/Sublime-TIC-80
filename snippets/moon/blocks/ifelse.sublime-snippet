@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+if ${1:condition} then
+  ${2:-- if code}
+else
+  ${3:-- else code}
+]]></content>
+	<tabTrigger>ifelse</tabTrigger>
+	<scope>source.moon</scope>
+	<description>if-else</description>
+</snippet>

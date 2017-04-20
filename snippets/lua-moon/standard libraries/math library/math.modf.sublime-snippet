@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.modf(${1:x})]]></content>
+    <tabTrigger>math.modf</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.modf (x)</description>
+</snippet>

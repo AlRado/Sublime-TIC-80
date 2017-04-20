@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[table.insert(${1:list}, ${2:pos}, ${3:value})]]></content>
+    <tabTrigger>table.insert</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>table.insert (list, [pos,] value)</description>
+</snippet>

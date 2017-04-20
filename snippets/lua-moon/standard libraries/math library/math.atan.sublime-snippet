@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.atan(${1:x})]]></content>
+    <tabTrigger>math.atan</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.atan (x)</description>
+</snippet>

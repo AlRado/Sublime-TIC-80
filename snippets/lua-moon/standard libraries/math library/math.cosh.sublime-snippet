@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.cosh(${1:x})]]></content>
+    <tabTrigger>math.cosh</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.cosh (x)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.randomseed(${1:x})]]></content>
+    <tabTrigger>math.randomseed</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.randomseed (x)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.cos(${1:x})]]></content>
+    <tabTrigger>math.cos</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.cos (x)</description>
+</snippet>

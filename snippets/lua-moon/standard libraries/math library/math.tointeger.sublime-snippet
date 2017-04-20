@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.tointeger(${1:x})]]></content>
+    <tabTrigger>math.tointeger</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.tointeger (x)</description>
+</snippet>

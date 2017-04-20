@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+for ${1:i},${2:value} in ipairs(${3:table}) do
+  ${4:-- loop code}
+]]></content>
+	<tabTrigger>foripairs</tabTrigger>
+	<scope>source.moon</scope>
+	<description>for-in-ipairs</description>
+</snippet>

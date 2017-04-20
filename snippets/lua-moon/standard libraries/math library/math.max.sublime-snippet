@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.max(${1:x}, ${2:...})]]></content>
+    <tabTrigger>math.max</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.max (x, ...)</description>
+</snippet>

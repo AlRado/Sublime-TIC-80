@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[xpcall(${1:f}, ${2:msgh}, ${3:arg1}, ${4:...})]]></content>
+    <tabTrigger>xpcall</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>xpcall (f, msgh [, arg1, ...])</description>
+</snippet>

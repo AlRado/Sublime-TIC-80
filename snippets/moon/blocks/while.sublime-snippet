@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+while ${1:condition} do
+  ${2:-- loop code}
+]]></content>
+	<tabTrigger>while</tabTrigger>
+	<scope>source.moon</scope>
+	<description>while</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[tonumber(${1:e}, ${2:base})]]></content>
+    <tabTrigger>tonumber</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>tonumber (e [, base])</description>
+</snippet>

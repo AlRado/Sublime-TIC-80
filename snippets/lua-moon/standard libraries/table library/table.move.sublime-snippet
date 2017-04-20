@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[table.move(${1:a1}, ${2:f}, ${3:e}, ${4:t}, ${5:a2})]]></content>
+    <tabTrigger>table.move</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>table.move (a1, f, e, t [,a2])</description>
+</snippet>

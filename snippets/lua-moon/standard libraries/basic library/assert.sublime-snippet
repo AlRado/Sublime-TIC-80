@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[assert(${1:v}, ${2:message})]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>assert (v [, message])</description>
+</snippet>

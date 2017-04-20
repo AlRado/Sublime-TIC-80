@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+else
+  ${1:-- else code}
+]]></content>
+	<tabTrigger>else</tabTrigger>
+	<scope>source.moon</scope>
+	<description>else</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.rad(${1:x})]]></content>
+    <tabTrigger>math.rad</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.rad (x)</description>
+</snippet>

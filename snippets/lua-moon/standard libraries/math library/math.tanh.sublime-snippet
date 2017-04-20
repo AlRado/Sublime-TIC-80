@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.tanh(${1:x})]]></content>
+    <tabTrigger>math.tanh</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.tanh (x)</description>
+</snippet>

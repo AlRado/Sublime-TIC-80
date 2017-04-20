@@ -1,0 +1,198 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: TIC-80 lua
+comment: Lua language for TIC-80
+scopeName: source.lua
+fileTypes: [lua]
+uuid: adf0c904-8baa-40e9-837b-17758d42d0ce
+
+patterns:
+- include: '#general'
+
+repository:
+  general:
+    patterns:
+    - include: '#tic-api'
+    - include: '#string-single'
+    - include: '#string-double'
+    - include: '#string-multiline'
+    - include: '#comment-block'
+    - include: '#comment-line'
+    - include: '#numeric-constant'
+    - include: '#lua-constant'
+    - include: '#lua-self'
+    - include: '#function-definition'
+    - include: '#lua-keyword'
+    - include: '#lua-logic'
+    - include: '#lua-operator'
+    - include: '#lua-function-require'
+    - include: '#lua-function'
+    - include: '#function-call'
+    - include: '#table'
+    - include: '#bracket-index-self'
+    - include: '#variable-index'
+    - include: '#variable'
+
+  tic-api:
+    name: meta.functioncall.lua
+    begin: (?<![^.]\.|:)\b(TIC|scanline|btn|btnp|mouse|print|font|trace|spr|map|mset|mget|pix|line|circ|circb|rect|rectb|tri|cls|peek|poke|peek4|poke4|memcpy|memset|pmem|sfx|time)\b(?=[ ]*[({])
+    beginCaptures:
+      '1': {name: support.function.lua}
+    end: \)
+    patterns:
+    - include: '#general'
+
+  string-single:
+    name: string.quoted.single.lua
+    begin: "'"
+    beginCaptures:
+      '0': {name: punctuation.definition.string.begin.lua}
+    end: "'"
+    endCaptures:
+      '0': {name: punctuation.definition.string.end.lua}
+    patterns:
+    - match: \\.
+      name: constant.character.escape.lua
+
+  string-double:
+    name: string.quoted.double.lua
+    begin: '"'
+    beginCaptures:
+      '0': {name: punctuation.definition.string.begin.lua}
+    end: '"'
+    endCaptures:
+      '0': {name: punctuation.definition.string.end.lua}
+    patterns:
+    - name: constant.character.escape.lua
+      match: \\.
+
+  string-multiline:
+    name: string.quoted.other.multiline.lua
+    begin: (?<!--)\[(=*)\[
+    beginCaptures:
+      '0': {name: punctuation.definition.string.begin.lua}
+    end: \]\1\]
+    endCaptures:
+      '0': {name: punctuation.definition.string.end.lua}
+
+  comment-block:
+    name: comment.block.lua
+    begin: --\[(=*)\[
+    end: \]\1\]
+    captures:
+      '0': {name: punctuation.definition.comment.lua}
+
+  comment-line:
+    name: comment.line.double-dash.lua
+    match: (--)(?!\[\[).*$\n?
+    captures:
+      '1': {name: punctuation.definition.comment.lua}
+
+  numeric-constant:
+    name: constant.numeric.lua
+    match: (?<![\d.])\s0x[a-fA-F\d]+|\b\d+(\.\d+)?([eE]-?\d+)?|\.\d+([eE]-?\d+)?
+
+  lua-constant:
+    name: constant.language.lua
+    match: (?<![^.]\.|:)\b(false|nil|true|_G|_VERSION|math\.(pi|huge))\b|(?<![.])\.{3}(?!\.)
+
+  lua-self:
+    name: variable.language.self.lua
+    match: (?<![^.]\.|:)\b(self)\b
+
+  function-definition:
+    name: meta.function.lua
+    begin: \b(function)\s?([a-zA-Z_.:]+[.:])?([a-zA-Z_]\w*)?\s*(\()([^)]*)(\))
+    beginCaptures:
+      '1': {name: keyword.control.lua}
+      '2': {name: entity.name.function.scope.lua}
+      '3': {name: entity.name.function.lua}
+      '4': {name: punctuation.definition.parameters.begin.lua}
+      '5': {name: variable.parameter.function.lua}
+      '6': {name: punctuation.definition.parameters.end.lua}
+    end: \bend\b
+    endCaptures:
+      '0': {name: keyword.control.lua}
+    patterns:
+    - include: '#general'
+
+  lua-function-require:
+    name: support.function
+    match: (?:require (["'][^"']+["']))|(?:require\(([^\)]+)\))
+    captures:
+      '1': {name: string.quoted.lua}
+      '2': {name: string.quoted.lua}
+ 
+  lua-function:
+    name: meta.functioncall.lua
+    begin: (?<![^.]\.|:)\b(assert|collectgarbage|dofile|error|getfenv|getmetatable|ipairs|loadfile|loadstring|module|next|pairs|pcall|print|rawequal|rawget|rawset|select|setfenv|setmetatable|tonumber|tostring|type|unpack|xpcall|coroutine\.(create|resume|running|status|wrap|yield)|string\.(byte|char|dump|find|format|gmatch|gsub|len|lower|match|rep|reverse|sub|upper)|table\.(concat|insert|maxn|remove|sort)|math\.(abs|acos|asin|atan2?|ceil|cosh?|deg|exp|floor|fmod|frexp|ldexp|log|log10|max|min|modf|pow|rad|random|randomseed|sinh?|sqrt|tanh?|ult|type|tointeger)|io\.(close|flush|input|lines|open|output|popen|read|tmpfile|type|write)|os\.(clock|date|difftime|execute|exit|getenv|remove|rename|setlocale|time|tmpname)|package\.(cpath|loaded|loadlib|path|preload|seeall)|debug\.(debug|[gs]etfenv|[gs]ethook|getinfo|[gs]etlocal|[gs]etmetatable|getregistry|[gs]etupvalue|traceback))\b(?=[ ]*[({])
+    beginCaptures:
+      '1': {name: support.function.lua}
+    end: \)
+    patterns:
+    - include: '#general'
+
+  function-call:
+    name: meta.functioncall.lua
+    begin: (?:(\.?\w+)|(?<=self))(?:(?:(\.\w[\w\.]*))*)[\.:](\w+)(?:\s*\(|(?=['"]))|(\w+)(?:\s*\(|(?=['"]))
+    beginCaptures:
+      '1': {name: variable.object.lua}
+      '2': {name: variable.object.nested.lua}
+      '4': {name: meta.call.method.other.lua}
+      '5': {name: meta.call.function.other.lua}
+    end: \)|(?<=['"])
+    patterns:
+    - include: '#general'
+
+  table:
+    name: meta.tabledecl.lua
+    begin: \{
+    end: \}
+    patterns:
+    - include: '#general'
+
+  lua-logic:
+    name: keyword.operator.lua
+    match: \b(and|or|not)\b
+
+  lua-operator:
+    name: keyword.operator.lua
+    match: \+|-|%|#|\*|\/|\^|==?|~=|<=?|>=?|(?<!\.)\.{2}(?!\.)
+
+  lua-keyword:
+    name: keyword.control.lua
+    match: \b(break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in)\b
+
+  bracket-index-self:
+    begin: (?<=self)(\[)
+    beginCaptures:
+      '1': {name: variable.language.self.lua}
+    end: \]
+    endCaptures:
+      '0': {name: variable.language.self.lua}
+    patterns:
+    - include: '#general'
+  
+  variable-index:
+    name: meta.arrayindex.lua
+    begin: ((\.?\w[\w\d]*+)?\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)
+    end: \]
+    beginCaptures:
+      '1': {name: variable.other.lua}
+      '2': {name: variable.object.lua}
+      '3': {name: variable.object.nested.lua}
+      '4': {name: variable.object.lua}
+      '5': {name: meta.structure.key.lua}
+    endCaptures:
+      '0': {name: meta.structure.key.lua}
+    patterns:
+    - include: '#general'
+
+  variable:
+    name: variable.other.lua
+    match: (?:(\.?\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*)\.)*+)(\w[\w\d]*+)|(\.?\w[\w\d]*+))
+    captures:
+      '1': {name: variable.object.lua}
+      '2': {name: variable.object.nested.lua}
+
+

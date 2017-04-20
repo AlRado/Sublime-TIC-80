@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+function TIC()
+  ${0:your code}
+end
+]]></content>
+	<tabTrigger>tic</tabTrigger>
+	<scope>source.lua</scope>
+	<description>TIC-80 API main function TIC</description>
+</snippet>

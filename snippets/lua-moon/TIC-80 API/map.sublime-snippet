@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[map(${1:cell_x},${2:cell_y},${3:cell_w},${4:cell_h},${5:x},${6:y},${7:alpha_color},${8:remap})$0
+]]></content>
+  <tabTrigger>map</tabTrigger>
+  <scope>source.moon, source.lua</scope>
+  <description>TIC-80 API map ([cell_x, cell_y, cell_w, cell_h, [x, y, [alpha_color, [remap]]]])</description>
+</snippet>

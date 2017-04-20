@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+repeat
+  ${2:-- loop code}
+until ${1:condition}
+]]></content>
+	<tabTrigger>repeat</tabTrigger>
+	<scope>source.lua</scope>
+	<description>repeat</description>
+</snippet>

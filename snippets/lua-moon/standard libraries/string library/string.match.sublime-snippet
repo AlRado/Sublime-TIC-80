@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[string.match(${1:s}, ${2:pattern}, ${3:init})]]></content>
+    <tabTrigger>string.match</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>string.match (s, pattern [, init])</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+export TIC=->
+  ${0:your code}
+]]></content>
+	<tabTrigger>tic</tabTrigger>
+	<scope>source.moon</scope>
+	<description>TIC-80 API main function TIC</description>
+</snippet>

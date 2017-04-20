@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[dump(${1:table})]]></content>
+    <tabTrigger>dump</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>dump ([table])</description>
+</snippet>

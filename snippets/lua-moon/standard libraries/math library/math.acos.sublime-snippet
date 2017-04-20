@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[math.acos(${1:x})]]></content>
+    <tabTrigger>math.acos</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>math.acos (x)</description>
+</snippet>

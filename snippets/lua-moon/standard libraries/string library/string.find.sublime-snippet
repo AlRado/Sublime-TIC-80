@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[string.find(${1:s}, ${2:pattern}, ${3:init}, ${4:plain})]]></content>
+    <tabTrigger>string.find</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>string.find (s, pattern [, init [, plain]])</description>
+</snippet>

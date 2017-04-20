@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[coroutine.isyieldable()]]></content>
+    <tabTrigger>coroutine.isyieldable</tabTrigger>
+    <scope>source.moon, source.lua</scope>
+    <description>coroutine.isyieldable</description>
+</snippet>
