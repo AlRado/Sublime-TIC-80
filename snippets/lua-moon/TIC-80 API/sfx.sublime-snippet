@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>sfx</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API sfx ([id},[note,[channel,[volume},[speed]]]]])</description>
+  <description>TIC-80 API sfx ([id,[note,[channel,[volume},[speed]]]]])</description>
 </snippet>

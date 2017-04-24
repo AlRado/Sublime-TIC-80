@@ -2,5 +2,5 @@
     <content><![CDATA[dofile(${1:filename})]]></content>
     <tabTrigger>dofile</tabTrigger>
     <scope>source.moon, source.lua</scope>
-    <description>dofile ([filename])</description>
+    <description>dofile (filename)</description>
 </snippet>
