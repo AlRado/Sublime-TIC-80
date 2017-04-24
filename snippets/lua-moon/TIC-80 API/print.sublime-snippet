@@ -1,7 +1,7 @@
 <snippet>
-  <content><![CDATA[print(${1:text},${2:x},${3:y},${4:color},${5:fixed})$0
+  <content><![CDATA[print(${1:text}, ${2:x}, ${3:y}, ${4:color}, ${5:fixed})$0
 ]]></content>
   <tabTrigger>print</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API print (text, [x, y, [color, [fixed]]])</description>
+  <description>TIC-80 API print (text [, x, y [, color [, fixed]]])</description>
 </snippet>

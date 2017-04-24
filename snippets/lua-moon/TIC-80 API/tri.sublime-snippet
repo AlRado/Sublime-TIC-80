@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[tri(${1:x1},${2:y1},${3:x2},${4:y2},${5:x3},${6:y3},${7:color})$0
+  <content><![CDATA[tri(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:x3}, ${6:y3}, ${7:color})$0
 ]]></content>
   <tabTrigger>tri</tabTrigger>
   <scope>source.moon, source.lua</scope>

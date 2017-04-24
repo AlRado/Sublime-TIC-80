@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[poke4(${1:addr},${2:val})$0
+  <content><![CDATA[poke4(${1:addr}, ${2:val})$0
 ]]></content>
   <tabTrigger>poke4</tabTrigger>
   <scope>source.moon, source.lua</scope>

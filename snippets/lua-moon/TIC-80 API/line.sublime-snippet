@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[line(${1:x0},${2:y0},${3:x1},${4:y1},${5:color})$0
+  <content><![CDATA[line(${1:x0}, ${2:y0}, ${3:x1}, ${4:y1}, ${5:color})$0
 ]]></content>
   <tabTrigger>line</tabTrigger>
   <scope>source.moon, source.lua</scope>

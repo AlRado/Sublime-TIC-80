@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[memcpy(${1:dst},${2:src},${3:size})$0
+  <content><![CDATA[memcpy(${1:dst}, ${2:src}, ${3:size})$0
 ]]></content>
   <tabTrigger>memcpy</tabTrigger>
   <scope>source.moon, source.lua</scope>
