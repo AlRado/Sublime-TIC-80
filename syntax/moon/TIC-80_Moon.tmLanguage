@@ -14,7 +14,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(TIC|scanline|btn|btnp|mouse|print|font|trace|spr|map|mset|mget|pix|line|circ|circb|rect|rectb|tri|cls|peek|poke|peek4|poke4|memcpy|memset|pmem|sfx|time)\b</string>
+			<string>\b(TIC|scanline|btn|btnp|mouse|print|font|trace|spr|map|mset|mget|pix|line|circ|circb|rect|rectb|tri|cls|peek|poke|peek4|poke4|memcpy|memset|pmem|sfx|time|clip|music)\b</string>
 			<key>name</key>
 			<string>support.function.moonscript</string>
 		</dict>

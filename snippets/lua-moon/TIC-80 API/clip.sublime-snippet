@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[clip(${1:x},${2:y},${3:width},${4:height})$0
+]]></content>
+  <tabTrigger>clip</tabTrigger>
+  <scope>source.moon, source.lua</scope>
+  <description>TIC-80 API clip ([x, y, w, h])</description>
+</snippet>
