@@ -1,5 +1,6 @@
 # Sublime-TIC-80
 package for Sublime Text 3 for TIC-80 game developers
+TIC-80 API ver.0.23.0
 
 Description
 ===========
@@ -7,7 +8,6 @@ Description
 'Sublime TIC-80' is a package for [Sublime Text 3](http://www.sublimetext.com) for TIC-80 game developers. Its based on [BetterLua](https://github.com/Xuerian/Sublime-BetterLua) and [Moonscripty](https://github.com/rorydriscoll/LuaSublime).
 The package highlights and auto-completes the functions of the TIC-80 API, the standard libraries connected to it and Lua/MoonScript syntax. Works either for Lua and for MoonScript.
 Also it allows you to build game and run it by the TIC-80 fantasy game console.
-TIC-80 ver.0.22.0 is supported.
 
 Installation
 ============
@@ -25,6 +25,7 @@ Syntax highlighting
 Command Palette: 
 Set Syntax: TIC-80 lua 
 Set Syntax: TIC-80 moon 
+You can also select the syntax by selecting from the list by clicking on the button in the right-bottom corner of the screen.
 
 
 Completions
@@ -38,9 +39,9 @@ Build game for TIC-80
 Edit TIC-80.sublime-build before launch building.
 By default, path to TIC-80 is 
 
-C:\\Program Files\\TIC-80\\tic_0.21.0\\tic.exe
+C:\\Program Files\\TIC-80\\tic_0.23.0\\tic.exe
 
-To build your game select build system in window Tools -> Build System -> TIC-80
+To build your game select build system in window Tools -> Build System -> TIC-80, then press CTRL+B.
 
 
 Описание
@@ -49,7 +50,6 @@ To build your game select build system in window Tools -> Build System -> TIC-80
 'Sublime TIC-80' это пакет для [Sublime Text 3](http://www.sublimetext.com) предназначенный для разработчиков игр под TIC-80. Он основан на пакетах [BetterLua](https://github.com/Xuerian/Sublime-BetterLua) и [Moonscripty](https://github.com/rorydriscoll/LuaSublime).
 Пакет подсвечивает и автодополняет функции API TIC-80 и подключенные к нему стандартные библиотеки. Работает либо для Lua либо для MoonScript. 
 Также позволяет создавать билд игры и запускать её в виртуальной игровой консоли TIC-80.
-Поддерживается TIC-80 ver.0.22.0.
 
 
 Установка
@@ -68,6 +68,7 @@ C:\\Users\\[USERNAME]\\AppData\\Roaming\\Sublime Text 3\\Packages\\TIC-80
 Command Palette: 
 Set Syntax: TIC-80 lua 
 Set Syntax: TIC-80 moon 
+Также можно выбрать синтаксис выбрав из списка, нажав на кнопку в правом-нижнем углу экрана.
 
 
 Автодополнение
@@ -81,4 +82,6 @@ Set Syntax: TIC-80 moon
 Отредактируйте файл TIC-80.sublime-build перед запуском создания билда.
 По умолчанию путь к TIC-80:
 
-C:\\Program Files\\TIC-80\\tic_0.21.0\\tic.exe
+C:\\Program Files\\TIC-80\\tic_0.23.0\\tic.exe
+
+Для создания билда игры выберите Tools -> Build System -> TIC-80, затем нажмите сочетание клавишь CTRL+B.

@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>pmem</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API pmem (index [, val])</description>
+  <description>TIC-80 API pmem (index [, val]) --> value</description>
 </snippet>

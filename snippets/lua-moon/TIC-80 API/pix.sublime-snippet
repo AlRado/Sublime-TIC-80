@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>pix</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API pix (x, y [, color])</description>
+  <description>TIC-80 API pix (x, y [, color]) --> color</description>
 </snippet>

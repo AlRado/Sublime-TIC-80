@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>peek4</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API peek4 (addr)</description>
+  <description>TIC-80 API peek4 (addr) --> value</description>
 </snippet>

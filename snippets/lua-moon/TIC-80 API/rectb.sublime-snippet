@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>rectb</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API rectb (x, y, w, h, color)</description>
+  <description>TIC-80 API rectb (x, y, width, height, color)</description>
 </snippet>

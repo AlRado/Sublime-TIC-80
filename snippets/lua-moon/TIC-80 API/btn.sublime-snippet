@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>btn</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API btn([id])</description>
+  <description>TIC-80 API btn([id]) --> pressed</description>
 </snippet>

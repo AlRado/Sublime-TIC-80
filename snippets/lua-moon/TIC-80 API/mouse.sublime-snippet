@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>mouse</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API mouse()</description>
+  <description>TIC-80 API mouse() --> x, y, pressed</description>
 </snippet>

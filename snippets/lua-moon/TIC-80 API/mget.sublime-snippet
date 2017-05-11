@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>mget</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API mget (cell_x, cell_y)</description>
+  <description>TIC-80 API mget (cell_x, cell_y) --> index</description>
 </snippet>

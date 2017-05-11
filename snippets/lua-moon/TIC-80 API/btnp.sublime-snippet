@@ -3,5 +3,5 @@
 ]]></content>
   <tabTrigger>btnp</tabTrigger>
   <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API btnp ([id [, hold, period]])</description>
+  <description>TIC-80 API btnp ([id [, hold, period]]) --> pressed</description>
 </snippet>
