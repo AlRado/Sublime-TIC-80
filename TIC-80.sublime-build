@@ -1,4 +1,4 @@
 {
-"cmd": ["C:\\Program Files\\TIC-80\\tic_0.24.0\\tic.exe","-code","$file"],
+"cmd": ["C:\\Program Files\\TIC-80\\tic_0.24.0\\tic.exe","$file_base_name.tic","-code","$file"],
 "shell":true
 }

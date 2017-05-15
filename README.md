@@ -43,6 +43,8 @@ C:\\Program Files\\TIC-80\\tic_0.24.0\\tic.exe
 
 To build your game select build system in window Tools -> Build System -> TIC-80, then press CTRL+B.
 
+In order for the build to run the cartridge, you need to save it next to your file containing the code with the same name.
+
 
 Описание
 ========
@@ -85,3 +87,5 @@ Set Syntax: TIC-80 moon
 C:\\Program Files\\TIC-80\\tic_0.24.0\\tic.exe
 
 Для создания билда игры выберите Tools -> Build System -> TIC-80, затем нажмите сочетание клавишь CTRL+B.
+
+Для того чтобы при билде игры запустился картридж, нужно сохранитиь его рядом с Вашим файлом содержащим код с тем же именем.
