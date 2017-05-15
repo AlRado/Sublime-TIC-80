@@ -1,6 +1,6 @@
 # Sublime-TIC-80
 package for Sublime Text 3 for TIC-80 game developers
-TIC-80 API ver.0.23.0
+TIC-80 API ver.0.24.0
 
 Description
 ===========
@@ -39,7 +39,7 @@ Build game for TIC-80
 Edit TIC-80.sublime-build before launch building.
 By default, path to TIC-80 is 
 
-C:\\Program Files\\TIC-80\\tic_0.23.0\\tic.exe
+C:\\Program Files\\TIC-80\\tic_0.24.0\\tic.exe
 
 To build your game select build system in window Tools -> Build System -> TIC-80, then press CTRL+B.
 
@@ -82,6 +82,6 @@ Set Syntax: TIC-80 moon
 Отредактируйте файл TIC-80.sublime-build перед запуском создания билда.
 По умолчанию путь к TIC-80:
 
-C:\\Program Files\\TIC-80\\tic_0.23.0\\tic.exe
+C:\\Program Files\\TIC-80\\tic_0.24.0\\tic.exe
 
 Для создания билда игры выберите Tools -> Build System -> TIC-80, затем нажмите сочетание клавишь CTRL+B.
