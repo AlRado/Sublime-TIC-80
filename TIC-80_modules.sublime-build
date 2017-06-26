@@ -1,0 +1,9 @@
+{
+  "shell" : true,
+  "cmd": [
+      "del", "${FileDir:build.lua}", "&", 
+      "copy", "/b", "*.lua", "${FileDir:build.tmp}", "&", 
+      "rename", "${FileDir:build.tmp}", "${FileDir:build.lua}", "&", 
+      "C:\\Program Files\\TIC-80\\tic_0.28.1\\tic.exe","build.tic","-code","build.lua"
+  ]
+}
