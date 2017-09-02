@@ -1,6 +1,6 @@
 # Sublime-TIC-80
 package for Sublime Text 3 for TIC-80 game developers
-TIC-80 API ver.0.28.1
+TIC-80 API ver.0.40.0
 
 Description
 ===========
@@ -39,7 +39,7 @@ Build game for TIC-80
 Edit TIC-80.sublime-build before launch building.
 By default, path to TIC-80 is 
 
-C:\\Program Files\\TIC-80\\tic_0.28.1\\tic.exe
+C:\\Program Files\\TIC-80\\tic.exe
 
 To build your game select build system in window Tools -> Build System -> TIC-80, then press CTRL+B.
 
@@ -84,8 +84,15 @@ Set Syntax: TIC-80 moon
 Отредактируйте файл TIC-80.sublime-build перед запуском создания билда.
 По умолчанию путь к TIC-80:
 
-C:\\Program Files\\TIC-80\\tic_0.28.1\\tic.exe
+C:\\Program Files\\TIC-80\\tic.exe
 
 Для создания билда игры выберите Tools -> Build System -> TIC-80, затем нажмите сочетание клавишь CTRL+B.
 
 Для того чтобы при билде игры запустился картридж, нужно сохранитиь его рядом с Вашим файлом содержащим код с тем же именем.
+
+Редактирование файлов синтаксиса
+--------------------------------
+1. Установите пакет PackageDev отсюда https://github.com/SublimeText/PackageDev. Можно просто скопировать содержимое его архива в папку которая откроется выбрав Preferences -> Browse Packages.. и перезапустив Sublime Text
+2. Отредактируйте файлы синтаксиса, например для Lua: Sublime-TIC-80/syntax/lua/TIC-80_Lua.YAML-tmLanguage
+3. Выберите Tools -> Build System -> Convert to...
+4. Выберите Tools -> Build либо нажмите CTRL+B, будет подготовлен файл TIC-80_Lua.tmLanguage, который и будет подсвечивать синтаксис при выборе соответствующего языка.

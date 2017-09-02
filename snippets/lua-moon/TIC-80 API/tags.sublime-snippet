@@ -5,7 +5,7 @@
 -- desc:   ${3:short description}
 -- script: ${4:lua}
 -- input:  ${5:gamepad}
--- pal:    ${6:DB16}
+-- saveid: ${6:MyAwesomeGame}
 
 ${0:}
 	]]></content>

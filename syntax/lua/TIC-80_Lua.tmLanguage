@@ -461,7 +461,7 @@
 		<key>tic-api</key>
 		<dict>
 			<key>begin</key>
-			<string>(?&lt;![^.]\.|:)\b(TIC|scanline|btn|btnp|mouse|print|font|trace|spr|map|mset|mget|pix|line|circ|circb|rect|rectb|tri|cls|peek|poke|peek4|poke4|memcpy|memset|pmem|sfx|time|clip|music|sync)\b(?=[ ]*[({])</string>
+			<string>(?&lt;![^.]\.|:)\b(TIC|scanline|btn|btnp|mouse|print|font|trace|spr|map|mset|mget|pix|line|circ|circb|rect|rectb|tri|cls|peek|poke|peek4|poke4|memcpy|memset|pmem|sfx|time|clip|music|sync|exit)\b(?=[ ]*[({])</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>

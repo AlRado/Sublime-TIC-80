@@ -35,7 +35,7 @@ repository:
 
   tic-api:
     name: meta.functioncall.lua
-    begin: (?<![^.]\.|:)\b(TIC|scanline|btn|btnp|mouse|print|font|trace|spr|map|mset|mget|pix|line|circ|circb|rect|rectb|tri|cls|peek|poke|peek4|poke4|memcpy|memset|pmem|sfx|time|clip|music|sync)\b(?=[ ]*[({])
+    begin: (?<![^.]\.|:)\b(TIC|scanline|btn|btnp|mouse|print|font|trace|spr|map|mset|mget|pix|line|circ|circb|rect|rectb|tri|cls|peek|poke|peek4|poke4|memcpy|memset|pmem|sfx|time|clip|music|sync|exit)\b(?=[ ]*[({])
     beginCaptures:
       '1': {name: support.function.lua}
     end: \)
