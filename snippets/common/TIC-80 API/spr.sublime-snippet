@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[spr(${1:id}, ${2:x}, ${3:y}, ${4:alpha_color}, ${5:scale}, ${6:flip}, ${7:rotate}, ${8:cell_width}, ${9:cell_height})$0
+]]></content>
+  <tabTrigger>spr</tabTrigger>
+  <scope>source.moon, source.lua, source.js</scope>
+  <description>TIC-80 API spr (id, x, y [, alpha_color=-1 [, scale=1 [, flip=0 [, rotate=0 [, cell_width=1, cell_height=1]]]]])</description>
+</snippet>

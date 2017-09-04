@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[print(${1:text}, ${2:x}, ${3:y}, ${4:color}, ${5:fixed}, ${6:scale})$0
-]]></content>
-  <tabTrigger>print</tabTrigger>
-  <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API print (text [, x=0, y=0 [, color=15 [, fixed=false [, scale=1]]]]) --> width</description>
-</snippet>

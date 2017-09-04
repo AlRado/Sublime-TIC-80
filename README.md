@@ -5,7 +5,7 @@ TIC-80 API ver.0.40.0
 Description
 ===========
 
-'Sublime TIC-80' is a package for [Sublime Text 3](http://www.sublimetext.com) for TIC-80 game developers. Its based on [BetterLua](https://github.com/Xuerian/Sublime-BetterLua) and [Moonscripty](https://github.com/rorydriscoll/LuaSublime).
+'Sublime TIC-80' is a package for [Sublime Text 3](http://www.sublimetext.com) for TIC-80 game developers. Its based on [BetterLua](https://github.com/Xuerian/Sublime-BetterLua), [Moonscripty](https://github.com/rorydriscoll/LuaSublime) and [JavaScriptNext](https://github.com/Benvie/JavaScriptNext.tmLanguage).
 The package highlights and auto-completes the functions of the TIC-80 API, the standard libraries connected to it and Lua/MoonScript syntax. Works either for Lua and for MoonScript.
 Also it allows you to build game and run it by the TIC-80 fantasy game console.
 
@@ -45,11 +45,18 @@ To build your game select build system in window Tools -> Build System -> TIC-80
 
 In order for the build to run the cartridge, you need to save it next to your file containing the code with the same name.
 
+Sintax files editing
+--------------------
+1. Install package [PackageDev](https://github.com/SublimeText/PackageDev). You can just copy content of the archive to folder which will be opened by Preferences -> Browse Packages... and restart Sublime Text.
+2. Edit syntax files, e.g. for the Lua: Sublime-TIC-80/syntax/lua/TIC-80_Lua.YAML-tmLanguage
+3. Select Tools -> Build System -> Convert to...
+4. Select Tools -> Build or press CTRL+B to build TIC-80_Lua.tmLanguage file. This file  will highlight syntax when proper language selected.
+
 
 Описание
 ========
 
-'Sublime TIC-80' это пакет для [Sublime Text 3](http://www.sublimetext.com) предназначенный для разработчиков игр под TIC-80. Он основан на пакетах [BetterLua](https://github.com/Xuerian/Sublime-BetterLua) и [Moonscripty](https://github.com/rorydriscoll/LuaSublime).
+'Sublime TIC-80' это пакет для [Sublime Text 3](http://www.sublimetext.com) предназначенный для разработчиков игр под TIC-80. Он основан на пакетах [BetterLua](https://github.com/Xuerian/Sublime-BetterLua), [Moonscripty](https://github.com/rorydriscoll/LuaSublime) и [JavaScriptNext](https://github.com/Benvie/JavaScriptNext.tmLanguage).
 Пакет подсвечивает и автодополняет функции API TIC-80 и подключенные к нему стандартные библиотеки. Работает либо для Lua либо для MoonScript. 
 Также позволяет создавать билд игры и запускать её в виртуальной игровой консоли TIC-80.
 
@@ -90,9 +97,10 @@ C:\\Program Files\\TIC-80\\tic.exe
 
 Для того чтобы при билде игры запустился картридж, нужно сохранитиь его рядом с Вашим файлом содержащим код с тем же именем.
 
+
 Редактирование файлов синтаксиса
 --------------------------------
-1. Установите пакет PackageDev отсюда https://github.com/SublimeText/PackageDev. Можно просто скопировать содержимое его архива в папку которая откроется выбрав Preferences -> Browse Packages.. и перезапустив Sublime Text
+1. Установите пакет [PackageDev](https://github.com/SublimeText/PackageDev). Можно просто скопировать содержимое его архива в папку которая откроется выбрав Preferences -> Browse Packages.. и перезапустить Sublime Text.
 2. Отредактируйте файлы синтаксиса, например для Lua: Sublime-TIC-80/syntax/lua/TIC-80_Lua.YAML-tmLanguage
 3. Выберите Tools -> Build System -> Convert to...
 4. Выберите Tools -> Build либо нажмите CTRL+B, будет подготовлен файл TIC-80_Lua.tmLanguage, который и будет подсвечивать синтаксис при выборе соответствующего языка.

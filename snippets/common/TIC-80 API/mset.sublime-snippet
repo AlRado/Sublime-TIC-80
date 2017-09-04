@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[mset(${1:cell_x}, ${2:cell_y}, ${3:index})$0
+]]></content>
+  <tabTrigger>mset</tabTrigger>
+  <scope>source.moon, source.lua, source.js</scope>
+  <description>TIC-80 API mset (cell_x, cell_y, index)</description>
+</snippet>

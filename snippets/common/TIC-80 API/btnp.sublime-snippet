@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[btnp(${1:id}, ${2:hold}, ${3:period})$0
+]]></content>
+  <tabTrigger>btnp</tabTrigger>
+  <scope>source.moon, source.lua, source.js</scope>
+  <description>TIC-80 API btnp ([id [, hold, period]]) --> pressed</description>
+</snippet>

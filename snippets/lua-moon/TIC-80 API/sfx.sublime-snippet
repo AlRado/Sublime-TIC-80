@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[sfx(${1:id}, ${2:note}, ${3:duration}, ${4:channel}, ${5:volume}, ${6:speed})$0
-]]></content>
-  <tabTrigger>sfx</tabTrigger>
-  <scope>source.moon, source.lua</scope>
-  <description>TIC-80 API sfx ([id [, note [, duration=-1 [, channel=0 [, volume=15} [, speed=0]]]]]])</description>
-</snippet>

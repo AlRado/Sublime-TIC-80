@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[circ(${1:x}, ${2:y}, ${3:radius}, ${4:color})$0
+]]></content>
+  <tabTrigger>circ</tabTrigger>
+  <scope>source.moon, source.lua, source.js</scope>
+  <description>TIC-80 API circ (x, y, radius, color)</description>
+</snippet>

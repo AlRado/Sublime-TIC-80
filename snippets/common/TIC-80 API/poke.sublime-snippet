@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[poke(${1:addr}, ${2:val})$0
+]]></content>
+  <tabTrigger>poke</tabTrigger>
+  <scope>source.moon, source.lua, source.js</scope>
+  <description>TIC-80 API poke (addr, val)</description>
+</snippet>

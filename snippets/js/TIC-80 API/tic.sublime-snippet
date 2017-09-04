@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+function TIC() {
+  ${0:your code}
+}
+]]></content>
+	<tabTrigger>tic</tabTrigger>
+	<scope>source.js</scope>
+	<description>TIC-80 API main function TIC</description>
+</snippet>

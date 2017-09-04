@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[mouse()$0
+]]></content>
+  <tabTrigger>mouse</tabTrigger>
+  <scope>source.moon, source.lua, source.js</scope>
+  <description>TIC-80 API mouse() --> x, y, pressed</description>
+</snippet>
